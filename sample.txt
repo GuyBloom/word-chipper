@@ -1,0 +1,149 @@
+01. feasts → sea  (4 moves: 3c 1s)
+    feasts → feast → east → seat → sea
+
+02. sparks → rap  (4 moves: 3c 1s)
+    sparks → parks → park → par → rap
+
+03. traces → ear  (5 moves: 3c 2s)
+    traces → races → race → care → are → ear
+
+04. writers → ire  (5 moves: 4c 1s)
+    writers → writer → write → rite → tire → ire
+
+05. gardens → ran  (5 moves: 4c 1s)
+    gardens → garden → ranged → range → rang → ran
+
+06. stages → eta  (5 moves: 3c 2s)
+    stages → stage → gates → gate → ate → eta
+
+07. starts → art  (4 moves: 3c 1s)
+    starts → start → star → tar → art
+
+08. stared → sera  (4 moves: 2c 2s)
+    stared → stare → tears → ears → sera
+
+09. crates → eta  (4 moves: 3c 1s)
+    crates → rates → rate → ate → eta
+
+10. starred → ate  (6 moves: 4c 2s)
+    starred → traders → trader → trade → rated → rate → ate
+
+11. slate → sea  (4 moves: 2c 2s)
+    slate → least → east → seat → sea
+
+12. braced → are  (4 moves: 3c 1s)
+    braced → brace → race → care → are
+
+13. acres → ear  (4 moves: 2c 2s)
+    acres → acre → care → are → ear
+
+14. parsley → era  (7 moves: 4c 3s)
+    parsley → players → layers → layer → early → earl → ear → era
+
+15. bates → ate  (4 moves: 2c 2s)
+    bates → beats → eats → eat → ate
+
+16. cater → are  (4 moves: 2c 2s)
+    cater → trace → race → care → are
+
+17. crates → arts  (4 moves: 2c 2s)
+    crates → rates → stare → star → arts
+
+18. relays → era  (5 moves: 3c 2s)
+    relays → relay → early → earl → ear → era
+
+19. reacts → cars  (5 moves: 2c 3s)
+    reacts → traces → races → scare → scar → cars
+
+20. slayer → ear  (4 moves: 3c 1s)
+    slayer → layer → early → earl → ear
+
+21. dread → era  (4 moves: 2c 2s)
+    dread → read → dare → are → era
+
+22. trades → eta  (5 moves: 3c 2s)
+    trades → trade → rated → rate → ate → eta
+
+23. traders → eat  (6 moves: 4c 2s)
+    traders → trader → trade → rated → rate → ate → eat
+
+24. sorted → roe  (5 moves: 3c 2s)
+    sorted → stored → store → tore → ore → roe
+
+25. hearth → are  (4 moves: 3c 1s)
+    hearth → heart → hear → ear → are
+
+26. praises → sire  (5 moves: 3c 2s)
+    praises → raises → raise → arise → rise → sire
+
+27. caters → are  (5 moves: 3c 2s)
+    caters → traces → races → race → care → are
+
+28. tracer → ear  (5 moves: 3c 2s)
+    tracer → trace → race → care → are → ear
+
+29. trades → eat  (5 moves: 3c 2s)
+    trades → trade → rated → rate → ate → eat
+
+30. scared → ear  (4 moves: 3c 1s)
+    scared → cared → care → are → ear
+
+31. coasts → taco  (4 moves: 2c 2s)
+    coasts → coast → coats → coat → taco
+
+32. delta → ale  (4 moves: 2c 2s)
+    delta → dealt → deal → dale → ale
+
+33. assets → eta  (5 moves: 3c 2s)
+    assets → asset → seats → eats → eat → eta
+
+34. scored → roe  (4 moves: 3c 1s)
+    scored → score → core → ore → roe
+
+35. spines → ins  (4 moves: 3c 1s)
+    spines → spine → spin → pins → ins
+
+36. trader → ate  (4 moves: 3c 1s)
+    trader → trade → rated → rate → ate
+
+37. rates → era  (4 moves: 2c 2s)
+    rates → rate → tear → ear → era
+
+38. caster → are  (5 moves: 3c 2s)
+    caster → traces → races → race → care → are
+
+39. starred → era  (8 moves: 4c 4s)
+    starred → traders → trader → trade → rated → rate → tear → ear → era
+
+40. stares → sera  (4 moves: 2c 2s)
+    stares → stare → tears → ears → sera
+
+41. steals → eta  (5 moves: 3c 2s)
+    steals → steal → slate → late → ate → eta
+
+42. dearly → are  (4 moves: 3c 1s)
+    dearly → early → earl → ear → are
+
+43. rental → ear  (4 moves: 3c 1s)
+    rental → learnt → learn → earn → ear
+
+44. parsley → early  (4 moves: 2c 2s)
+    parsley → players → layers → layer → early
+
+45. praised → sire  (5 moves: 3c 2s)
+    praised → raised → raise → arise → rise → sire
+
+46. crate → arc  (5 moves: 2c 3s)
+    crate → trace → race → care → car → arc
+
+47. losers → lore  (4 moves: 2c 2s)
+    losers → loser → roles → role → lore
+
+48. breaks → beak  (4 moves: 2c 2s)
+    breaks → break → baker → bake → beak
+
+49. pasted → peat  (4 moves: 2c 2s)
+    pasted → paste → tapes → tape → peat
+
+50. stages → ate  (4 moves: 3c 1s)
+    stages → stage → gates → gate → ate

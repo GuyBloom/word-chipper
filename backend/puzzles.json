@@ -1,0 +1,5243 @@
+[
+  {
+    "start": "cables",
+    "end": "ale",
+    "solution": [
+      "cables",
+      "cable",
+      "able",
+      "bale",
+      "ale"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "assets",
+    "end": "sea",
+    "solution": [
+      "assets",
+      "asset",
+      "seats",
+      "seat",
+      "sea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "trashy",
+    "end": "sha",
+    "solution": [
+      "trashy",
+      "trash",
+      "rash",
+      "ash",
+      "sha"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stares",
+    "end": "eras",
+    "solution": [
+      "stares",
+      "stare",
+      "tears",
+      "ears",
+      "eras"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "scorer",
+    "end": "roe",
+    "solution": [
+      "scorer",
+      "score",
+      "core",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "seldom",
+    "end": "demo",
+    "solution": [
+      "seldom",
+      "models",
+      "model",
+      "mode",
+      "demo"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "knight",
+    "end": "hint",
+    "solution": [
+      "knight",
+      "night",
+      "thing",
+      "thin",
+      "hint"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "ladies",
+    "end": "lead",
+    "solution": [
+      "ladies",
+      "ideals",
+      "deals",
+      "deal",
+      "lead"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "caster",
+    "end": "era",
+    "solution": [
+      "caster",
+      "traces",
+      "races",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "trace",
+    "end": "era",
+    "solution": [
+      "trace",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "fists",
+    "end": "sit",
+    "solution": [
+      "fists",
+      "fist",
+      "fits",
+      "its",
+      "sit"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "slater",
+    "end": "eat",
+    "solution": [
+      "slater",
+      "later",
+      "late",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "braces",
+    "end": "arc",
+    "solution": [
+      "braces",
+      "races",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "steals",
+    "end": "ate",
+    "solution": [
+      "steals",
+      "steal",
+      "slate",
+      "late",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "rental",
+    "end": "era",
+    "solution": [
+      "rental",
+      "learnt",
+      "learn",
+      "earn",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "grated",
+    "end": "eta",
+    "solution": [
+      "grated",
+      "rated",
+      "rate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "players",
+    "end": "ear",
+    "solution": [
+      "players",
+      "layers",
+      "layer",
+      "early",
+      "earl",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 4,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "pasted",
+    "end": "tap",
+    "solution": [
+      "pasted",
+      "paste",
+      "tapes",
+      "tape",
+      "tap"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "grated",
+    "end": "eat",
+    "solution": [
+      "grated",
+      "rated",
+      "rate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "deaths",
+    "end": "eat",
+    "solution": [
+      "deaths",
+      "death",
+      "hated",
+      "hate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "beasts",
+    "end": "ate",
+    "solution": [
+      "beasts",
+      "beast",
+      "east",
+      "seat",
+      "eat",
+      "ate"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "shared",
+    "end": "eras",
+    "solution": [
+      "shared",
+      "share",
+      "hears",
+      "ears",
+      "eras"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "caters",
+    "end": "era",
+    "solution": [
+      "caters",
+      "traces",
+      "races",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "earths",
+    "end": "hare",
+    "solution": [
+      "earths",
+      "earth",
+      "heart",
+      "hear",
+      "hare"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pores",
+    "end": "roe",
+    "solution": [
+      "pores",
+      "prose",
+      "rose",
+      "sore",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "ideas",
+    "end": "die",
+    "solution": [
+      "ideas",
+      "aside",
+      "side",
+      "dies",
+      "die"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "layer",
+    "end": "are",
+    "solution": [
+      "layer",
+      "early",
+      "earl",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "ideals",
+    "end": "aid",
+    "solution": [
+      "ideals",
+      "ideal",
+      "idea",
+      "aide",
+      "aid"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "pedals",
+    "end": "lap",
+    "solution": [
+      "pedals",
+      "pedal",
+      "plead",
+      "plea",
+      "pale",
+      "pal",
+      "lap"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "graced",
+    "end": "era",
+    "solution": [
+      "graced",
+      "grace",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "camels",
+    "end": "mac",
+    "solution": [
+      "camels",
+      "camel",
+      "came",
+      "cam",
+      "mac"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "cedar",
+    "end": "ear",
+    "solution": [
+      "cedar",
+      "cared",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trader",
+    "end": "tar",
+    "solution": [
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "rat",
+      "tar"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "traded",
+    "end": "era",
+    "solution": [
+      "traded",
+      "trade",
+      "rated",
+      "rate",
+      "tear",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "parsley",
+    "end": "early",
+    "solution": [
+      "parsley",
+      "players",
+      "layers",
+      "layer",
+      "early"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "reacts",
+    "end": "acre",
+    "solution": [
+      "reacts",
+      "react",
+      "trace",
+      "race",
+      "acre"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "metals",
+    "end": "tea",
+    "solution": [
+      "metals",
+      "metal",
+      "meta",
+      "team",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "aspire",
+    "end": "rise",
+    "solution": [
+      "aspire",
+      "praise",
+      "raise",
+      "arise",
+      "rise"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "graces",
+    "end": "are",
+    "solution": [
+      "graces",
+      "races",
+      "race",
+      "care",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "sacred",
+    "end": "are",
+    "solution": [
+      "sacred",
+      "scared",
+      "cared",
+      "care",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "pedal",
+    "end": "lap",
+    "solution": [
+      "pedal",
+      "plead",
+      "plea",
+      "pale",
+      "pal",
+      "lap"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "praised",
+    "end": "sire",
+    "solution": [
+      "praised",
+      "raised",
+      "raise",
+      "arise",
+      "rise",
+      "sire"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "clamp",
+    "end": "lap",
+    "solution": [
+      "clamp",
+      "lamp",
+      "palm",
+      "pal",
+      "lap"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "reacts",
+    "end": "are",
+    "solution": [
+      "reacts",
+      "react",
+      "trace",
+      "race",
+      "care",
+      "are"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "crates",
+    "end": "eta",
+    "solution": [
+      "crates",
+      "rates",
+      "rate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "cater",
+    "end": "are",
+    "solution": [
+      "cater",
+      "trace",
+      "race",
+      "care",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "writer",
+    "end": "ire",
+    "solution": [
+      "writer",
+      "write",
+      "rite",
+      "tire",
+      "ire"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "merits",
+    "end": "mite",
+    "solution": [
+      "merits",
+      "merit",
+      "timer",
+      "time",
+      "mite"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trades",
+    "end": "tar",
+    "solution": [
+      "trades",
+      "trade",
+      "rated",
+      "rate",
+      "rat",
+      "tar"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "raced",
+    "end": "arc",
+    "solution": [
+      "raced",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "seminary",
+    "end": "airmen",
+    "solution": [
+      "seminary",
+      "seminar",
+      "remains",
+      "remain",
+      "airmen"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pedals",
+    "end": "pal",
+    "solution": [
+      "pedals",
+      "pedal",
+      "plead",
+      "plea",
+      "pale",
+      "pal"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "death",
+    "end": "eta",
+    "solution": [
+      "death",
+      "hated",
+      "hate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "charms",
+    "end": "car",
+    "solution": [
+      "charms",
+      "charm",
+      "march",
+      "arch",
+      "arc",
+      "car"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "blasts",
+    "end": "sal",
+    "solution": [
+      "blasts",
+      "lasts",
+      "last",
+      "las",
+      "sal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "alters",
+    "end": "ale",
+    "solution": [
+      "alters",
+      "alter",
+      "later",
+      "late",
+      "tale",
+      "ale"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "smacks",
+    "end": "cam",
+    "solution": [
+      "smacks",
+      "smack",
+      "mack",
+      "mac",
+      "cam"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stills",
+    "end": "lit",
+    "solution": [
+      "stills",
+      "still",
+      "till",
+      "til",
+      "lit"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "pedals",
+    "end": "deal",
+    "solution": [
+      "pedals",
+      "pedal",
+      "plead",
+      "lead",
+      "deal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "demons",
+    "end": "mod",
+    "solution": [
+      "demons",
+      "demon",
+      "demo",
+      "mode",
+      "mod"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "sheath",
+    "end": "tea",
+    "solution": [
+      "sheath",
+      "heath",
+      "heat",
+      "eat",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "modesty",
+    "end": "dome",
+    "solution": [
+      "modesty",
+      "modest",
+      "modes",
+      "mode",
+      "dome"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "replay",
+    "end": "real",
+    "solution": [
+      "replay",
+      "player",
+      "layer",
+      "early",
+      "earl",
+      "real"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "staple",
+    "end": "ale",
+    "solution": [
+      "staple",
+      "plates",
+      "plate",
+      "late",
+      "tale",
+      "ale"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tries",
+    "end": "tie",
+    "solution": [
+      "tries",
+      "tires",
+      "tire",
+      "tier",
+      "tie"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "mayors",
+    "end": "yam",
+    "solution": [
+      "mayors",
+      "mayor",
+      "mayo",
+      "may",
+      "yam"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "petal",
+    "end": "eat",
+    "solution": [
+      "petal",
+      "plate",
+      "late",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "snipe",
+    "end": "ins",
+    "solution": [
+      "snipe",
+      "spine",
+      "spin",
+      "pins",
+      "ins"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pastel",
+    "end": "peat",
+    "solution": [
+      "pastel",
+      "paste",
+      "tapes",
+      "tape",
+      "peat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "scared",
+    "end": "arc",
+    "solution": [
+      "scared",
+      "cared",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "trades",
+    "end": "tear",
+    "solution": [
+      "trades",
+      "trade",
+      "rated",
+      "rate",
+      "tear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trade",
+    "end": "era",
+    "solution": [
+      "trade",
+      "rated",
+      "rate",
+      "tear",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "chains",
+    "end": "inch",
+    "solution": [
+      "chains",
+      "chain",
+      "china",
+      "chin",
+      "inch"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stage",
+    "end": "tea",
+    "solution": [
+      "stage",
+      "gates",
+      "gate",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "reacts",
+    "end": "scar",
+    "solution": [
+      "reacts",
+      "traces",
+      "races",
+      "scare",
+      "scar"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "replays",
+    "end": "early",
+    "solution": [
+      "replays",
+      "replay",
+      "player",
+      "layer",
+      "early"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "feast",
+    "end": "ate",
+    "solution": [
+      "feast",
+      "east",
+      "seat",
+      "eat",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "caters",
+    "end": "are",
+    "solution": [
+      "caters",
+      "traces",
+      "races",
+      "race",
+      "care",
+      "are"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "caster",
+    "end": "scar",
+    "solution": [
+      "caster",
+      "traces",
+      "races",
+      "scare",
+      "scar"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "sacred",
+    "end": "arc",
+    "solution": [
+      "sacred",
+      "scared",
+      "cared",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "charms",
+    "end": "arc",
+    "solution": [
+      "charms",
+      "charm",
+      "march",
+      "arch",
+      "arc"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "crates",
+    "end": "car",
+    "solution": [
+      "crates",
+      "traces",
+      "races",
+      "race",
+      "care",
+      "car"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "nerves",
+    "end": "veer",
+    "solution": [
+      "nerves",
+      "nerve",
+      "never",
+      "ever",
+      "veer"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "plates",
+    "end": "ale",
+    "solution": [
+      "plates",
+      "plate",
+      "late",
+      "tale",
+      "ale"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "shared",
+    "end": "ear",
+    "solution": [
+      "shared",
+      "share",
+      "hare",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "clamps",
+    "end": "lap",
+    "solution": [
+      "clamps",
+      "lamps",
+      "lamp",
+      "palm",
+      "pal",
+      "lap"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "alter",
+    "end": "eat",
+    "solution": [
+      "alter",
+      "later",
+      "late",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "relay",
+    "end": "are",
+    "solution": [
+      "relay",
+      "early",
+      "earl",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "swears",
+    "end": "are",
+    "solution": [
+      "swears",
+      "wears",
+      "ears",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "despair",
+    "end": "arise",
+    "solution": [
+      "despair",
+      "praised",
+      "raised",
+      "raise",
+      "arise"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "deaths",
+    "end": "hat",
+    "solution": [
+      "deaths",
+      "death",
+      "hated",
+      "hate",
+      "hat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "gardens",
+    "end": "ran",
+    "solution": [
+      "gardens",
+      "garden",
+      "ranged",
+      "range",
+      "rang",
+      "ran"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 4,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "bread",
+    "end": "era",
+    "solution": [
+      "bread",
+      "read",
+      "dare",
+      "are",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "spite",
+    "end": "tis",
+    "solution": [
+      "spite",
+      "spit",
+      "pits",
+      "its",
+      "tis"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "carte",
+    "end": "ear",
+    "solution": [
+      "carte",
+      "trace",
+      "race",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "graced",
+    "end": "car",
+    "solution": [
+      "graced",
+      "grace",
+      "race",
+      "care",
+      "car"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "beasts",
+    "end": "sea",
+    "solution": [
+      "beasts",
+      "beast",
+      "east",
+      "seat",
+      "sea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "staged",
+    "end": "tea",
+    "solution": [
+      "staged",
+      "stage",
+      "gates",
+      "gate",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "glances",
+    "end": "lean",
+    "solution": [
+      "glances",
+      "glance",
+      "lance",
+      "clean",
+      "lean"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "grated",
+    "end": "tar",
+    "solution": [
+      "grated",
+      "rated",
+      "rate",
+      "rat",
+      "tar"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "braces",
+    "end": "cars",
+    "solution": [
+      "braces",
+      "races",
+      "scare",
+      "scar",
+      "cars"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "rentals",
+    "end": "renal",
+    "solution": [
+      "rentals",
+      "rental",
+      "learnt",
+      "learn",
+      "renal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "traces",
+    "end": "era",
+    "solution": [
+      "traces",
+      "races",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "mister",
+    "end": "emit",
+    "solution": [
+      "mister",
+      "merits",
+      "merit",
+      "timer",
+      "time",
+      "emit"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "dearly",
+    "end": "are",
+    "solution": [
+      "dearly",
+      "early",
+      "earl",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "writes",
+    "end": "ire",
+    "solution": [
+      "writes",
+      "write",
+      "rite",
+      "tire",
+      "ire"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "asset",
+    "end": "eta",
+    "solution": [
+      "asset",
+      "seats",
+      "eats",
+      "eat",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stables",
+    "end": "ale",
+    "solution": [
+      "stables",
+      "tables",
+      "table",
+      "able",
+      "bale",
+      "ale"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 4,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "praises",
+    "end": "sire",
+    "solution": [
+      "praises",
+      "raises",
+      "raise",
+      "arise",
+      "rise",
+      "sire"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "cedar",
+    "end": "arc",
+    "solution": [
+      "cedar",
+      "cared",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pleads",
+    "end": "lap",
+    "solution": [
+      "pleads",
+      "plead",
+      "plea",
+      "pale",
+      "pal",
+      "lap"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "means",
+    "end": "man",
+    "solution": [
+      "means",
+      "mean",
+      "name",
+      "nam",
+      "man"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "replay",
+    "end": "ear",
+    "solution": [
+      "replay",
+      "player",
+      "layer",
+      "early",
+      "earl",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "traders",
+    "end": "eta",
+    "solution": [
+      "traders",
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "scares",
+    "end": "ear",
+    "solution": [
+      "scares",
+      "cares",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "metals",
+    "end": "ate",
+    "solution": [
+      "metals",
+      "metal",
+      "meta",
+      "mate",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "starred",
+    "end": "eta",
+    "solution": [
+      "starred",
+      "traders",
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 7,
+    "ai_chops": 4,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "beards",
+    "end": "bra",
+    "solution": [
+      "beards",
+      "beard",
+      "bear",
+      "bare",
+      "bar",
+      "bra"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trials",
+    "end": "lair",
+    "solution": [
+      "trials",
+      "trial",
+      "trail",
+      "rail",
+      "lair"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "traces",
+    "end": "car",
+    "solution": [
+      "traces",
+      "races",
+      "race",
+      "care",
+      "car"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "grated",
+    "end": "era",
+    "solution": [
+      "grated",
+      "rated",
+      "rate",
+      "tear",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "steals",
+    "end": "sea",
+    "solution": [
+      "steals",
+      "steal",
+      "least",
+      "east",
+      "seat",
+      "sea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "reacts",
+    "end": "arc",
+    "solution": [
+      "reacts",
+      "react",
+      "trace",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "stead",
+    "end": "eat",
+    "solution": [
+      "stead",
+      "dates",
+      "date",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "steals",
+    "end": "eats",
+    "solution": [
+      "steals",
+      "steal",
+      "least",
+      "east",
+      "eats"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pastel",
+    "end": "apt",
+    "solution": [
+      "pastel",
+      "paste",
+      "tapes",
+      "tape",
+      "tap",
+      "apt"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "learns",
+    "end": "are",
+    "solution": [
+      "learns",
+      "learn",
+      "earn",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "alerts",
+    "end": "ate",
+    "solution": [
+      "alerts",
+      "alert",
+      "later",
+      "late",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "starred",
+    "end": "ate",
+    "solution": [
+      "starred",
+      "traders",
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "ate"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "knights",
+    "end": "thin",
+    "solution": [
+      "knights",
+      "nights",
+      "night",
+      "thing",
+      "thin"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "planets",
+    "end": "lean",
+    "solution": [
+      "planets",
+      "planet",
+      "plane",
+      "lane",
+      "lean"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "rentals",
+    "end": "ear",
+    "solution": [
+      "rentals",
+      "rental",
+      "learnt",
+      "learn",
+      "earn",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 4,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "ghosts",
+    "end": "hot",
+    "solution": [
+      "ghosts",
+      "hosts",
+      "host",
+      "shot",
+      "hot"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "threes",
+    "end": "her",
+    "solution": [
+      "threes",
+      "three",
+      "there",
+      "here",
+      "her"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "psalm",
+    "end": "pal",
+    "solution": [
+      "psalm",
+      "lamps",
+      "lamp",
+      "palm",
+      "pal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "cater",
+    "end": "arc",
+    "solution": [
+      "cater",
+      "trace",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "rentals",
+    "end": "near",
+    "solution": [
+      "rentals",
+      "rental",
+      "learnt",
+      "learn",
+      "earn",
+      "near"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "slater",
+    "end": "sea",
+    "solution": [
+      "slater",
+      "slate",
+      "least",
+      "east",
+      "seat",
+      "sea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stale",
+    "end": "eta",
+    "solution": [
+      "stale",
+      "tale",
+      "late",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "ready",
+    "end": "era",
+    "solution": [
+      "ready",
+      "read",
+      "dare",
+      "are",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "theirs",
+    "end": "ire",
+    "solution": [
+      "theirs",
+      "their",
+      "heir",
+      "hire",
+      "ire"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "teens",
+    "end": "net",
+    "solution": [
+      "teens",
+      "tense",
+      "tens",
+      "ten",
+      "net"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stale",
+    "end": "eat",
+    "solution": [
+      "stale",
+      "tale",
+      "late",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "racer",
+    "end": "ear",
+    "solution": [
+      "racer",
+      "race",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "crates",
+    "end": "ace",
+    "solution": [
+      "crates",
+      "traces",
+      "races",
+      "race",
+      "ace"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "shawl",
+    "end": "saw",
+    "solution": [
+      "shawl",
+      "shaw",
+      "wash",
+      "was",
+      "saw"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "starred",
+    "end": "rated",
+    "solution": [
+      "starred",
+      "traders",
+      "trader",
+      "trade",
+      "rated"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "slayer",
+    "end": "real",
+    "solution": [
+      "slayer",
+      "layer",
+      "early",
+      "earl",
+      "real"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "beast",
+    "end": "eta",
+    "solution": [
+      "beast",
+      "east",
+      "seat",
+      "eat",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "closest",
+    "end": "sole",
+    "solution": [
+      "closest",
+      "closes",
+      "loses",
+      "lose",
+      "sole"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "leapt",
+    "end": "tea",
+    "solution": [
+      "leapt",
+      "plate",
+      "late",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stared",
+    "end": "sera",
+    "solution": [
+      "stared",
+      "stare",
+      "tears",
+      "ears",
+      "sera"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "snaps",
+    "end": "pas",
+    "solution": [
+      "snaps",
+      "snap",
+      "span",
+      "spa",
+      "pas"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "grace",
+    "end": "era",
+    "solution": [
+      "grace",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trade",
+    "end": "ear",
+    "solution": [
+      "trade",
+      "rated",
+      "rate",
+      "tear",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trade",
+    "end": "tea",
+    "solution": [
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stared",
+    "end": "are",
+    "solution": [
+      "stared",
+      "stare",
+      "tears",
+      "ears",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "raced",
+    "end": "ear",
+    "solution": [
+      "raced",
+      "race",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tracer",
+    "end": "car",
+    "solution": [
+      "tracer",
+      "trace",
+      "race",
+      "care",
+      "car"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "crates",
+    "end": "eras",
+    "solution": [
+      "crates",
+      "rates",
+      "tears",
+      "ears",
+      "eras"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "feasts",
+    "end": "eta",
+    "solution": [
+      "feasts",
+      "feast",
+      "east",
+      "seat",
+      "eat",
+      "eta"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trader",
+    "end": "ate",
+    "solution": [
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stoner",
+    "end": "nose",
+    "solution": [
+      "stoner",
+      "stone",
+      "tones",
+      "ones",
+      "nose"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trams",
+    "end": "rat",
+    "solution": [
+      "trams",
+      "smart",
+      "mart",
+      "art",
+      "rat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "sacred",
+    "end": "arcs",
+    "solution": [
+      "sacred",
+      "scared",
+      "scare",
+      "scar",
+      "arcs"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "oyster",
+    "end": "roe",
+    "solution": [
+      "oyster",
+      "storey",
+      "store",
+      "tore",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "nearly",
+    "end": "era",
+    "solution": [
+      "nearly",
+      "early",
+      "earl",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "merits",
+    "end": "emit",
+    "solution": [
+      "merits",
+      "merit",
+      "timer",
+      "time",
+      "emit"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "hearty",
+    "end": "are",
+    "solution": [
+      "hearty",
+      "heart",
+      "hear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "staple",
+    "end": "tale",
+    "solution": [
+      "staple",
+      "plates",
+      "plate",
+      "late",
+      "tale"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "earthy",
+    "end": "ear",
+    "solution": [
+      "earthy",
+      "earth",
+      "heart",
+      "hear",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "sabre",
+    "end": "bar",
+    "solution": [
+      "sabre",
+      "bears",
+      "bear",
+      "bare",
+      "bar"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "paste",
+    "end": "apt",
+    "solution": [
+      "paste",
+      "tapes",
+      "tape",
+      "tap",
+      "apt"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "amend",
+    "end": "man",
+    "solution": [
+      "amend",
+      "amen",
+      "name",
+      "nam",
+      "man"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "reacts",
+    "end": "era",
+    "solution": [
+      "reacts",
+      "react",
+      "trace",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "racer",
+    "end": "arc",
+    "solution": [
+      "racer",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "clamps",
+    "end": "pam",
+    "solution": [
+      "clamps",
+      "lamps",
+      "lamp",
+      "amp",
+      "pam"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "bates",
+    "end": "sea",
+    "solution": [
+      "bates",
+      "beast",
+      "east",
+      "seat",
+      "sea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stares",
+    "end": "era",
+    "solution": [
+      "stares",
+      "stare",
+      "tears",
+      "ears",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trader",
+    "end": "eta",
+    "solution": [
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stove",
+    "end": "vet",
+    "solution": [
+      "stove",
+      "votes",
+      "vote",
+      "veto",
+      "vet"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "straps",
+    "end": "rats",
+    "solution": [
+      "straps",
+      "traps",
+      "parts",
+      "arts",
+      "rats"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "graces",
+    "end": "arcs",
+    "solution": [
+      "graces",
+      "races",
+      "scare",
+      "scar",
+      "arcs"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stages",
+    "end": "ate",
+    "solution": [
+      "stages",
+      "stage",
+      "gates",
+      "gate",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stages",
+    "end": "eat",
+    "solution": [
+      "stages",
+      "stage",
+      "gates",
+      "gate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "scores",
+    "end": "roe",
+    "solution": [
+      "scores",
+      "score",
+      "core",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "traded",
+    "end": "eat",
+    "solution": [
+      "traded",
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "react",
+    "end": "car",
+    "solution": [
+      "react",
+      "trace",
+      "race",
+      "care",
+      "car"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tried",
+    "end": "tie",
+    "solution": [
+      "tried",
+      "tired",
+      "tire",
+      "tier",
+      "tie"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "alert",
+    "end": "ale",
+    "solution": [
+      "alert",
+      "later",
+      "late",
+      "tale",
+      "ale"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "crores",
+    "end": "cor",
+    "solution": [
+      "crores",
+      "scorer",
+      "score",
+      "core",
+      "cor"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "traders",
+    "end": "eat",
+    "solution": [
+      "traders",
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "battled",
+    "end": "bale",
+    "solution": [
+      "battled",
+      "battle",
+      "tablet",
+      "table",
+      "able",
+      "bale"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "passer",
+    "end": "spar",
+    "solution": [
+      "passer",
+      "spears",
+      "spear",
+      "spare",
+      "spar"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "sparks",
+    "end": "rap",
+    "solution": [
+      "sparks",
+      "parks",
+      "park",
+      "par",
+      "rap"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "crate",
+    "end": "car",
+    "solution": [
+      "crate",
+      "trace",
+      "race",
+      "care",
+      "car"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "slate",
+    "end": "sea",
+    "solution": [
+      "slate",
+      "least",
+      "east",
+      "seat",
+      "sea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "alters",
+    "end": "teal",
+    "solution": [
+      "alters",
+      "alter",
+      "later",
+      "late",
+      "teal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "battles",
+    "end": "bale",
+    "solution": [
+      "battles",
+      "battle",
+      "tablet",
+      "table",
+      "able",
+      "bale"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pedals",
+    "end": "leap",
+    "solution": [
+      "pedals",
+      "pedal",
+      "plead",
+      "plea",
+      "leap"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stares",
+    "end": "art",
+    "solution": [
+      "stares",
+      "stare",
+      "star",
+      "tar",
+      "art"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "spore",
+    "end": "roe",
+    "solution": [
+      "spore",
+      "prose",
+      "rose",
+      "sore",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "ropes",
+    "end": "ore",
+    "solution": [
+      "ropes",
+      "prose",
+      "rose",
+      "sore",
+      "ore"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "diapers",
+    "end": "arise",
+    "solution": [
+      "diapers",
+      "praised",
+      "raised",
+      "raise",
+      "arise"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "shares",
+    "end": "era",
+    "solution": [
+      "shares",
+      "share",
+      "hare",
+      "are",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "spreads",
+    "end": "parse",
+    "solution": [
+      "spreads",
+      "spread",
+      "spared",
+      "spare",
+      "parse"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "feasts",
+    "end": "sea",
+    "solution": [
+      "feasts",
+      "feast",
+      "east",
+      "seat",
+      "sea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "grate",
+    "end": "are",
+    "solution": [
+      "grate",
+      "rate",
+      "tear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "teach",
+    "end": "hat",
+    "solution": [
+      "teach",
+      "cheat",
+      "heat",
+      "hate",
+      "hat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "crate",
+    "end": "era",
+    "solution": [
+      "crate",
+      "rate",
+      "tear",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "least",
+    "end": "eta",
+    "solution": [
+      "least",
+      "east",
+      "seat",
+      "eat",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "spread",
+    "end": "pear",
+    "solution": [
+      "spread",
+      "spared",
+      "spare",
+      "spear",
+      "pear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "staples",
+    "end": "eta",
+    "solution": [
+      "staples",
+      "staple",
+      "plates",
+      "plate",
+      "late",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trials",
+    "end": "lira",
+    "solution": [
+      "trials",
+      "trial",
+      "trail",
+      "rail",
+      "lira"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "feats",
+    "end": "aft",
+    "solution": [
+      "feats",
+      "feat",
+      "fate",
+      "fat",
+      "aft"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "reacts",
+    "end": "cars",
+    "solution": [
+      "reacts",
+      "traces",
+      "races",
+      "scare",
+      "scar",
+      "cars"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "psalm",
+    "end": "lap",
+    "solution": [
+      "psalm",
+      "lamps",
+      "lamp",
+      "palm",
+      "pal",
+      "lap"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "graces",
+    "end": "ear",
+    "solution": [
+      "graces",
+      "races",
+      "race",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "ladies",
+    "end": "aide",
+    "solution": [
+      "ladies",
+      "ideals",
+      "ideal",
+      "idea",
+      "aide"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "traders",
+    "end": "art",
+    "solution": [
+      "traders",
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "rat",
+      "art"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "corpses",
+    "end": "crop",
+    "solution": [
+      "corpses",
+      "corpse",
+      "corps",
+      "crops",
+      "crop"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "leaps",
+    "end": "lap",
+    "solution": [
+      "leaps",
+      "leap",
+      "pale",
+      "pal",
+      "lap"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "crates",
+    "end": "are",
+    "solution": [
+      "crates",
+      "rates",
+      "rate",
+      "tear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "drier",
+    "end": "ire",
+    "solution": [
+      "drier",
+      "rider",
+      "ride",
+      "dire",
+      "ire"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "files",
+    "end": "lei",
+    "solution": [
+      "files",
+      "flies",
+      "lies",
+      "lie",
+      "lei"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "staples",
+    "end": "petal",
+    "solution": [
+      "staples",
+      "staple",
+      "plates",
+      "plate",
+      "petal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "caters",
+    "end": "arcs",
+    "solution": [
+      "caters",
+      "traces",
+      "races",
+      "scare",
+      "scar",
+      "arcs"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "alert",
+    "end": "eta",
+    "solution": [
+      "alert",
+      "later",
+      "late",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "players",
+    "end": "are",
+    "solution": [
+      "players",
+      "layers",
+      "layer",
+      "early",
+      "earl",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "glance",
+    "end": "lane",
+    "solution": [
+      "glance",
+      "lance",
+      "clean",
+      "lean",
+      "lane"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "fields",
+    "end": "life",
+    "solution": [
+      "fields",
+      "field",
+      "filed",
+      "file",
+      "life"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "aisles",
+    "end": "lie",
+    "solution": [
+      "aisles",
+      "aisle",
+      "isle",
+      "lies",
+      "lie"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "traded",
+    "end": "art",
+    "solution": [
+      "traded",
+      "trade",
+      "rated",
+      "rate",
+      "rat",
+      "art"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "beards",
+    "end": "dare",
+    "solution": [
+      "beards",
+      "beard",
+      "bread",
+      "read",
+      "dare"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "straps",
+    "end": "tar",
+    "solution": [
+      "straps",
+      "traps",
+      "trap",
+      "part",
+      "art",
+      "tar"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "arose",
+    "end": "roe",
+    "solution": [
+      "arose",
+      "rose",
+      "sore",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tracer",
+    "end": "era",
+    "solution": [
+      "tracer",
+      "trace",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "steals",
+    "end": "seat",
+    "solution": [
+      "steals",
+      "steal",
+      "least",
+      "east",
+      "seat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stead",
+    "end": "eta",
+    "solution": [
+      "stead",
+      "dates",
+      "date",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pleads",
+    "end": "pal",
+    "solution": [
+      "pleads",
+      "plead",
+      "plea",
+      "pale",
+      "pal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "spines",
+    "end": "ins",
+    "solution": [
+      "spines",
+      "spine",
+      "spin",
+      "pins",
+      "ins"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stares",
+    "end": "ear",
+    "solution": [
+      "stares",
+      "stare",
+      "tears",
+      "ears",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "caters",
+    "end": "acre",
+    "solution": [
+      "caters",
+      "traces",
+      "races",
+      "race",
+      "acre"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "battles",
+    "end": "ale",
+    "solution": [
+      "battles",
+      "battle",
+      "tablet",
+      "table",
+      "able",
+      "bale",
+      "ale"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "shares",
+    "end": "sera",
+    "solution": [
+      "shares",
+      "share",
+      "hears",
+      "ears",
+      "sera"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "staple",
+    "end": "eta",
+    "solution": [
+      "staple",
+      "plates",
+      "plate",
+      "late",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "replay",
+    "end": "era",
+    "solution": [
+      "replay",
+      "player",
+      "layer",
+      "early",
+      "earl",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "caster",
+    "end": "acre",
+    "solution": [
+      "caster",
+      "traces",
+      "races",
+      "race",
+      "acre"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "layers",
+    "end": "are",
+    "solution": [
+      "layers",
+      "layer",
+      "early",
+      "earl",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "charm",
+    "end": "car",
+    "solution": [
+      "charm",
+      "march",
+      "arch",
+      "arc",
+      "car"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "braced",
+    "end": "ear",
+    "solution": [
+      "braced",
+      "brace",
+      "race",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pastel",
+    "end": "ale",
+    "solution": [
+      "pastel",
+      "plates",
+      "plate",
+      "late",
+      "tale",
+      "ale"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "seldom",
+    "end": "ode",
+    "solution": [
+      "seldom",
+      "models",
+      "model",
+      "mode",
+      "ode"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "braces",
+    "end": "are",
+    "solution": [
+      "braces",
+      "races",
+      "race",
+      "care",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "crates",
+    "end": "eat",
+    "solution": [
+      "crates",
+      "rates",
+      "rate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "yeast",
+    "end": "ate",
+    "solution": [
+      "yeast",
+      "east",
+      "seat",
+      "eat",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tasted",
+    "end": "tat",
+    "solution": [
+      "tasted",
+      "taste",
+      "state",
+      "stat",
+      "tat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "lancet",
+    "end": "lane",
+    "solution": [
+      "lancet",
+      "lance",
+      "clean",
+      "lean",
+      "lane"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "player",
+    "end": "ear",
+    "solution": [
+      "player",
+      "layer",
+      "early",
+      "earl",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "rates",
+    "end": "are",
+    "solution": [
+      "rates",
+      "rate",
+      "tear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "teach",
+    "end": "ate",
+    "solution": [
+      "teach",
+      "cheat",
+      "heat",
+      "eat",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "writers",
+    "end": "tier",
+    "solution": [
+      "writers",
+      "writer",
+      "write",
+      "rite",
+      "tier"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "trades",
+    "end": "ate",
+    "solution": [
+      "trades",
+      "trade",
+      "rated",
+      "rate",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "sorted",
+    "end": "tor",
+    "solution": [
+      "sorted",
+      "stored",
+      "store",
+      "tore",
+      "tor"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "posts",
+    "end": "opt",
+    "solution": [
+      "posts",
+      "post",
+      "tops",
+      "top",
+      "opt"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "crate",
+    "end": "arc",
+    "solution": [
+      "crate",
+      "trace",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "teens",
+    "end": "sen",
+    "solution": [
+      "teens",
+      "tense",
+      "tens",
+      "sent",
+      "sen"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "charts",
+    "end": "tar",
+    "solution": [
+      "charts",
+      "chart",
+      "hart",
+      "art",
+      "tar"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stared",
+    "end": "ear",
+    "solution": [
+      "stared",
+      "stare",
+      "tears",
+      "ears",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "realms",
+    "end": "era",
+    "solution": [
+      "realms",
+      "realm",
+      "real",
+      "earl",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "assets",
+    "end": "eta",
+    "solution": [
+      "assets",
+      "asset",
+      "seats",
+      "eats",
+      "eat",
+      "eta"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "braced",
+    "end": "are",
+    "solution": [
+      "braced",
+      "brace",
+      "race",
+      "care",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "earthy",
+    "end": "era",
+    "solution": [
+      "earthy",
+      "earth",
+      "heart",
+      "hear",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "saber",
+    "end": "are",
+    "solution": [
+      "saber",
+      "bears",
+      "ears",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pastel",
+    "end": "tea",
+    "solution": [
+      "pastel",
+      "plates",
+      "plate",
+      "late",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "bates",
+    "end": "ate",
+    "solution": [
+      "bates",
+      "beats",
+      "eats",
+      "eat",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tread",
+    "end": "eta",
+    "solution": [
+      "tread",
+      "rated",
+      "rate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "layers",
+    "end": "real",
+    "solution": [
+      "layers",
+      "layer",
+      "early",
+      "earl",
+      "real"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "slopes",
+    "end": "pol",
+    "solution": [
+      "slopes",
+      "slope",
+      "poles",
+      "pole",
+      "pol"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "assets",
+    "end": "eat",
+    "solution": [
+      "assets",
+      "asset",
+      "seats",
+      "eats",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "braced",
+    "end": "arc",
+    "solution": [
+      "braced",
+      "brace",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "plated",
+    "end": "tea",
+    "solution": [
+      "plated",
+      "plate",
+      "late",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "caster",
+    "end": "arcs",
+    "solution": [
+      "caster",
+      "traces",
+      "races",
+      "scare",
+      "scar",
+      "arcs"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 2,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "steal",
+    "end": "eat",
+    "solution": [
+      "steal",
+      "least",
+      "east",
+      "seat",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "traded",
+    "end": "rat",
+    "solution": [
+      "traded",
+      "trade",
+      "rated",
+      "rate",
+      "rat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "diapers",
+    "end": "sire",
+    "solution": [
+      "diapers",
+      "praised",
+      "raised",
+      "raise",
+      "arise",
+      "rise",
+      "sire"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "sacred",
+    "end": "ear",
+    "solution": [
+      "sacred",
+      "scared",
+      "cared",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "alerts",
+    "end": "teal",
+    "solution": [
+      "alerts",
+      "alert",
+      "later",
+      "late",
+      "teal"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "pasted",
+    "end": "pat",
+    "solution": [
+      "pasted",
+      "paste",
+      "tapes",
+      "tape",
+      "tap",
+      "pat"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "assets",
+    "end": "tea",
+    "solution": [
+      "assets",
+      "asset",
+      "seats",
+      "eats",
+      "eat",
+      "tea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tropes",
+    "end": "pro",
+    "solution": [
+      "tropes",
+      "ropes",
+      "prose",
+      "pros",
+      "pro"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "crates",
+    "end": "art",
+    "solution": [
+      "crates",
+      "rates",
+      "rate",
+      "rat",
+      "art"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "alters",
+    "end": "tea",
+    "solution": [
+      "alters",
+      "alter",
+      "later",
+      "late",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "scared",
+    "end": "ace",
+    "solution": [
+      "scared",
+      "cared",
+      "care",
+      "race",
+      "ace"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stare",
+    "end": "eat",
+    "solution": [
+      "stare",
+      "rates",
+      "rate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "haste",
+    "end": "tea",
+    "solution": [
+      "haste",
+      "hates",
+      "hate",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "themes",
+    "end": "het",
+    "solution": [
+      "themes",
+      "theme",
+      "them",
+      "the",
+      "het"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "strap",
+    "end": "rat",
+    "solution": [
+      "strap",
+      "trap",
+      "part",
+      "art",
+      "rat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "panels",
+    "end": "lean",
+    "solution": [
+      "panels",
+      "panel",
+      "plane",
+      "lane",
+      "lean"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "praised",
+    "end": "rise",
+    "solution": [
+      "praised",
+      "raised",
+      "raise",
+      "arise",
+      "rise"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "grants",
+    "end": "tan",
+    "solution": [
+      "grants",
+      "grant",
+      "rant",
+      "ant",
+      "tan"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "aside",
+    "end": "aid",
+    "solution": [
+      "aside",
+      "ideas",
+      "idea",
+      "aide",
+      "aid"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "staples",
+    "end": "teal",
+    "solution": [
+      "staples",
+      "staple",
+      "plates",
+      "plate",
+      "late",
+      "teal"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "slater",
+    "end": "teas",
+    "solution": [
+      "slater",
+      "slate",
+      "least",
+      "east",
+      "teas"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tables",
+    "end": "ale",
+    "solution": [
+      "tables",
+      "table",
+      "able",
+      "bale",
+      "ale"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "alerts",
+    "end": "eat",
+    "solution": [
+      "alerts",
+      "alert",
+      "later",
+      "late",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "writers",
+    "end": "ire",
+    "solution": [
+      "writers",
+      "writer",
+      "write",
+      "rite",
+      "tire",
+      "ire"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 4,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "traces",
+    "end": "cars",
+    "solution": [
+      "traces",
+      "races",
+      "scare",
+      "scar",
+      "cars"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "revised",
+    "end": "drive",
+    "solution": [
+      "revised",
+      "diverse",
+      "divers",
+      "drives",
+      "drive"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "realm",
+    "end": "are",
+    "solution": [
+      "realm",
+      "real",
+      "earl",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "grace",
+    "end": "arc",
+    "solution": [
+      "grace",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "oyster",
+    "end": "tor",
+    "solution": [
+      "oyster",
+      "storey",
+      "store",
+      "tore",
+      "tor"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "slated",
+    "end": "tea",
+    "solution": [
+      "slated",
+      "slate",
+      "late",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "slayer",
+    "end": "ear",
+    "solution": [
+      "slayer",
+      "layer",
+      "early",
+      "earl",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "overt",
+    "end": "vet",
+    "solution": [
+      "overt",
+      "voter",
+      "vote",
+      "veto",
+      "vet"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "yearly",
+    "end": "era",
+    "solution": [
+      "yearly",
+      "early",
+      "earl",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "relays",
+    "end": "ear",
+    "solution": [
+      "relays",
+      "relay",
+      "early",
+      "earl",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "parsley",
+    "end": "earl",
+    "solution": [
+      "parsley",
+      "players",
+      "layers",
+      "layer",
+      "early",
+      "earl"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "sailed",
+    "end": "ale",
+    "solution": [
+      "sailed",
+      "ideals",
+      "deals",
+      "deal",
+      "dale",
+      "ale"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "crates",
+    "end": "arts",
+    "solution": [
+      "crates",
+      "rates",
+      "stare",
+      "star",
+      "arts"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tales",
+    "end": "eta",
+    "solution": [
+      "tales",
+      "tale",
+      "late",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "braces",
+    "end": "era",
+    "solution": [
+      "braces",
+      "races",
+      "race",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "straps",
+    "end": "art",
+    "solution": [
+      "straps",
+      "traps",
+      "trap",
+      "part",
+      "art"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stoner",
+    "end": "not",
+    "solution": [
+      "stoner",
+      "stone",
+      "tone",
+      "ton",
+      "not"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "brace",
+    "end": "ear",
+    "solution": [
+      "brace",
+      "race",
+      "care",
+      "are",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "palms",
+    "end": "pam",
+    "solution": [
+      "palms",
+      "palm",
+      "lamp",
+      "amp",
+      "pam"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stiles",
+    "end": "lit",
+    "solution": [
+      "stiles",
+      "tiles",
+      "tile",
+      "til",
+      "lit"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "hater",
+    "end": "are",
+    "solution": [
+      "hater",
+      "heart",
+      "hear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "trader",
+    "end": "tear",
+    "solution": [
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "tear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "garden",
+    "end": "ran",
+    "solution": [
+      "garden",
+      "ranged",
+      "range",
+      "rang",
+      "ran"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "plates",
+    "end": "eta",
+    "solution": [
+      "plates",
+      "plate",
+      "late",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stable",
+    "end": "ale",
+    "solution": [
+      "stable",
+      "table",
+      "able",
+      "bale",
+      "ale"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "replays",
+    "end": "are",
+    "solution": [
+      "replays",
+      "replay",
+      "player",
+      "layer",
+      "early",
+      "earl",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 7,
+    "ai_chops": 4,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "cheats",
+    "end": "tea",
+    "solution": [
+      "cheats",
+      "cheat",
+      "heat",
+      "eat",
+      "tea"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "players",
+    "end": "earl",
+    "solution": [
+      "players",
+      "layers",
+      "layer",
+      "early",
+      "earl"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "slated",
+    "end": "seat",
+    "solution": [
+      "slated",
+      "slate",
+      "least",
+      "east",
+      "seat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "tropes",
+    "end": "roe",
+    "solution": [
+      "tropes",
+      "ropes",
+      "prose",
+      "rose",
+      "sore",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 3,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "steamy",
+    "end": "mat",
+    "solution": [
+      "steamy",
+      "steam",
+      "team",
+      "mate",
+      "mat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "trades",
+    "end": "tea",
+    "solution": [
+      "trades",
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "tea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "earth",
+    "end": "are",
+    "solution": [
+      "earth",
+      "heart",
+      "hear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "starred",
+    "end": "eat",
+    "solution": [
+      "starred",
+      "traders",
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 7,
+    "ai_chops": 4,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "staples",
+    "end": "ale",
+    "solution": [
+      "staples",
+      "staple",
+      "plates",
+      "plate",
+      "late",
+      "tale",
+      "ale"
+    ],
+    "ai_moves": 6,
+    "ai_chops": 4,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "rages",
+    "end": "era",
+    "solution": [
+      "rages",
+      "rage",
+      "gear",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "charms",
+    "end": "ram",
+    "solution": [
+      "charms",
+      "charm",
+      "harm",
+      "arm",
+      "ram"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "renal",
+    "end": "are",
+    "solution": [
+      "renal",
+      "learn",
+      "earn",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "graced",
+    "end": "arc",
+    "solution": [
+      "graced",
+      "grace",
+      "race",
+      "care",
+      "car",
+      "arc"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "scored",
+    "end": "roe",
+    "solution": [
+      "scored",
+      "score",
+      "core",
+      "ore",
+      "roe"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "stared",
+    "end": "eta",
+    "solution": [
+      "stared",
+      "stare",
+      "rates",
+      "rate",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "haters",
+    "end": "are",
+    "solution": [
+      "haters",
+      "hearts",
+      "heart",
+      "hear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "hearth",
+    "end": "are",
+    "solution": [
+      "hearth",
+      "heart",
+      "hear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "acres",
+    "end": "era",
+    "solution": [
+      "acres",
+      "acre",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "steamy",
+    "end": "eat",
+    "solution": [
+      "steamy",
+      "steam",
+      "team",
+      "tea",
+      "eat"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "suing",
+    "end": "ins",
+    "solution": [
+      "suing",
+      "using",
+      "sing",
+      "sin",
+      "ins"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "cadre",
+    "end": "era",
+    "solution": [
+      "cadre",
+      "cared",
+      "care",
+      "are",
+      "era"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "petal",
+    "end": "eta",
+    "solution": [
+      "petal",
+      "plate",
+      "late",
+      "ate",
+      "eta"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "haters",
+    "end": "ear",
+    "solution": [
+      "haters",
+      "hearts",
+      "heart",
+      "hear",
+      "ear"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "charms",
+    "end": "cram",
+    "solution": [
+      "charms",
+      "charm",
+      "march",
+      "marc",
+      "cram"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "cedar",
+    "end": "ace",
+    "solution": [
+      "cedar",
+      "cared",
+      "care",
+      "race",
+      "ace"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 2,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "parsley",
+    "end": "era",
+    "solution": [
+      "parsley",
+      "players",
+      "layers",
+      "layer",
+      "early",
+      "earl",
+      "ear",
+      "era"
+    ],
+    "ai_moves": 7,
+    "ai_chops": 4,
+    "ai_scrambles": 3
+  },
+  {
+    "start": "feasts",
+    "end": "tea",
+    "solution": [
+      "feasts",
+      "feast",
+      "east",
+      "seat",
+      "eat",
+      "tea"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "rentals",
+    "end": "earn",
+    "solution": [
+      "rentals",
+      "rental",
+      "learnt",
+      "learn",
+      "earn"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "trader",
+    "end": "ear",
+    "solution": [
+      "trader",
+      "trade",
+      "rated",
+      "rate",
+      "tear",
+      "ear"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  },
+  {
+    "start": "stared",
+    "end": "ate",
+    "solution": [
+      "stared",
+      "stare",
+      "rates",
+      "rate",
+      "ate"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "beards",
+    "end": "are",
+    "solution": [
+      "beards",
+      "beard",
+      "bear",
+      "ear",
+      "are"
+    ],
+    "ai_moves": 4,
+    "ai_chops": 3,
+    "ai_scrambles": 1
+  },
+  {
+    "start": "petals",
+    "end": "eat",
+    "solution": [
+      "petals",
+      "plates",
+      "plate",
+      "late",
+      "ate",
+      "eat"
+    ],
+    "ai_moves": 5,
+    "ai_chops": 3,
+    "ai_scrambles": 2
+  }
+]
