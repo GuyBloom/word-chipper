@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-6px); }
+  40%       { transform: translateX(6px); }
+  60%       { transform: translateX(-4px); }
+  80%       { transform: translateX(2px); }
+}
+
+.shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes letter-chop-left {
+  0%   { opacity: 1; transform: translate(0,     0)    rotate(0deg);   }
+  14%  { opacity: 1; transform: translate(-12px, -18px) rotate(20deg); }
+  100% { opacity: 0; transform: translate(-55px,  95px) rotate(-95deg); }
+}
+
+@keyframes letter-chop-right {
+  0%   { opacity: 1; transform: translate(0,    0)     rotate(0deg);   }
+  14%  { opacity: 1; transform: translate(12px, -18px) rotate(-20deg); }
+  100% { opacity: 0; transform: translate(55px,  95px) rotate(95deg);  }
+}
+
+.letter-chop-left  { animation: letter-chop-left  0.5s ease-in forwards; }
+.letter-chop-right { animation: letter-chop-right 0.5s ease-in forwards; }

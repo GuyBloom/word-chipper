@@ -13,13 +13,12 @@ export default function MoveChain({ path, moveTypes }) {
             {word.toUpperCase()}
           </div>
           {i < moveTypes.length && (
-            <div className="flex items-center gap-1.5 text-sm my-0.5">
-              <span>{moveTypes[i] === 'chop' ? '🪓' : '🔀'}</span>
+            <div className="my-0.5">
               <span
-                className={`px-2 py-0.5 rounded-full text-xs font-medium ${
+                className={`px-2 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide ${
                   moveTypes[i] === 'chop'
                     ? 'bg-amber-100 text-amber-700'
-                    : 'bg-indigo-100 text-indigo-700'
+                    : 'bg-violet-100 text-violet-700'
                 }`}
               >
                 {moveTypes[i]}

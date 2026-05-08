@@ -10,6 +10,7 @@ Run: uvicorn server:app --reload
 """
 
 import json
+from collections import defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Optional
@@ -20,6 +21,7 @@ from pydantic import BaseModel
 
 PUZZLES_PATH = Path(__file__).parent / "puzzles.json"
 GRAPH_PATH = Path(__file__).parent / "graph.json"
+ENABLE_PATH = Path(__file__).parent.parent / "wordlists" / "enable.txt"
 
 app = FastAPI(title="Word Chipper API")
 
@@ -36,17 +38,23 @@ app.add_middleware(
 
 puzzles: list[dict] = []
 graph: dict[str, list[dict]] = {}
-word_set: set[str] = set()
+enable_words: set[str] = set()
+anagram_map: dict[str, list[str]] = {}
 
 
 @app.on_event("startup")
 def load_data():
-    global puzzles, graph, word_set
+    global puzzles, graph, enable_words, anagram_map
     with open(PUZZLES_PATH) as f:
         puzzles = json.load(f)
     with open(GRAPH_PATH) as f:
         graph = json.load(f)
-    word_set = set(graph.keys())
+    with open(ENABLE_PATH) as f:
+        enable_words = {w.strip().lower() for w in f if w.strip()}
+    by_key: dict[str, list[str]] = defaultdict(list)
+    for w in enable_words:
+        by_key["".join(sorted(w))].append(w)
+    anagram_map = dict(by_key)
 
 
 # ---------------------------------------------------------------------------
@@ -73,9 +81,12 @@ def get_puzzle_for_date(date_str: str) -> dict:
 
 def is_valid_move(word_from: str, word_to: str) -> Optional[str]:
     """Return move type ('chop' or 'scramble') if the move is valid, else None."""
-    for edge in graph.get(word_from, []):
-        if edge["to"] == word_to:
-            return edge["type"]
+    if word_to not in enable_words:
+        return None
+    if word_to == word_from[1:] or word_to == word_from[:-1]:
+        return "chop"
+    if word_to != word_from and sorted(word_to) == sorted(word_from):
+        return "scramble"
     return None
 
 
@@ -148,7 +159,21 @@ def validate(req: ValidateRequest):
         return {"valid": False, "error": "Path does not match this puzzle's start/end words"}
 
     result["beat_ai"] = result["moves"] < puzzle["ai_moves"]
+    result["solution"] = puzzle["solution"]
     return result
+
+
+@app.get("/next-moves")
+def next_moves_endpoint(word: str):
+    word = word.lower()
+    chops = []
+    for candidate, pos in [(word[1:], "first"), (word[:-1], "last")]:
+        if candidate and candidate in enable_words:
+            chops.append({"word": candidate, "removes": pos})
+    key = "".join(sorted(word))
+    scrambles = [w for w in anagram_map.get(key, []) if w != word]
+    scrambles.sort(key=lambda w: (0 if w in graph else 1, w))
+    return {"word": word, "chops": chops, "scrambles": scrambles[:10]}
 
 
 class HintRequest(BaseModel):
@@ -157,9 +182,11 @@ class HintRequest(BaseModel):
 
 @app.get("/valid-move")
 def valid_move(from_word: str, to_word: str):
-    move_type = is_valid_move(from_word.lower(), to_word.lower())
+    to_word = to_word.lower()
+    move_type = is_valid_move(from_word.lower(), to_word)
     if move_type is None:
-        return {"valid": False}
+        reason = "not_a_word" if to_word not in enable_words else "invalid_move"
+        return {"valid": False, "reason": reason}
     return {"valid": True, "type": move_type}
 
 
