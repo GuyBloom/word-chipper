@@ -10,21 +10,41 @@ export function playChop() {
   try {
     const ac = getCtx()
     const now = ac.currentTime
+    const impact = now + 0.20  // timed to axe blade hitting the block
 
-    // Low woody thud — oscillator pitching down fast
+    // Subtle whoosh as axe swings (very light, fades into impact)
+    const whooshLen = Math.floor(ac.sampleRate * 0.22)
+    const whooshBuf = ac.createBuffer(1, whooshLen, ac.sampleRate)
+    const wd = whooshBuf.getChannelData(0)
+    for (let i = 0; i < whooshLen; i++) wd[i] = Math.random() * 2 - 1
+    const whoosh = ac.createBufferSource()
+    whoosh.buffer = whooshBuf
+    const hpf = ac.createBiquadFilter()
+    hpf.type = 'highpass'
+    hpf.frequency.value = 1200
+    const wg = ac.createGain()
+    wg.gain.setValueAtTime(0, now)
+    wg.gain.linearRampToValueAtTime(0.12, now + 0.1)
+    wg.gain.linearRampToValueAtTime(0, impact)
+    whoosh.connect(hpf)
+    hpf.connect(wg)
+    wg.connect(ac.destination)
+    whoosh.start(now)
+
+    // Low woody thud at impact
     const osc = ac.createOscillator()
     osc.type = 'sine'
-    osc.frequency.setValueAtTime(130, now)
-    osc.frequency.exponentialRampToValueAtTime(38, now + 0.2)
+    osc.frequency.setValueAtTime(130, impact)
+    osc.frequency.exponentialRampToValueAtTime(38, impact + 0.2)
     const oscGain = ac.createGain()
-    oscGain.gain.setValueAtTime(1.1, now)
-    oscGain.gain.exponentialRampToValueAtTime(0.001, now + 0.2)
+    oscGain.gain.setValueAtTime(1.1, impact)
+    oscGain.gain.exponentialRampToValueAtTime(0.001, impact + 0.2)
     osc.connect(oscGain)
     oscGain.connect(ac.destination)
-    osc.start(now)
-    osc.stop(now + 0.22)
+    osc.start(impact)
+    osc.stop(impact + 0.22)
 
-    // Sharp crack on impact — very short noise burst with fast decay
+    // Sharp crack at impact
     const bufLen = Math.floor(ac.sampleRate * 0.08)
     const buf = ac.createBuffer(1, bufLen, ac.sampleRate)
     const d = buf.getChannelData(0)
@@ -38,12 +58,12 @@ export function playChop() {
     bpf.frequency.value = 2200
     bpf.Q.value = 0.7
     const ng = ac.createGain()
-    ng.gain.setValueAtTime(2.0, now)
-    ng.gain.exponentialRampToValueAtTime(0.001, now + 0.08)
+    ng.gain.setValueAtTime(2.0, impact)
+    ng.gain.exponentialRampToValueAtTime(0.001, impact + 0.08)
     noise.connect(bpf)
     bpf.connect(ng)
     ng.connect(ac.destination)
-    noise.start(now)
+    noise.start(impact)
   } catch {}
 }
 

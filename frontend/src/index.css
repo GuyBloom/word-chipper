@@ -28,3 +28,27 @@
 
 .letter-chop-left  { animation: letter-chop-left  0.5s ease-in forwards; }
 .letter-chop-right { animation: letter-chop-right 0.5s ease-in forwards; }
+
+@keyframes axe-swing {
+  0%   { transform: rotate(-52deg); opacity: 1; }
+  55%  { transform: rotate(13deg);  opacity: 1; }
+  70%  { transform: rotate(13deg);  opacity: 1; }
+  100% { transform: rotate(-8deg);  opacity: 0; }
+}
+
+.axe-swinging {
+  transform-origin: 50% 0%;
+  animation: axe-swing 0.38s cubic-bezier(0.3, 0, 0.85, 1) forwards;
+}
+
+@keyframes log-cut {
+  0%   { opacity: 0; transform: scaleY(0.2); }
+  15%  { opacity: 1; transform: scaleY(1); }
+  60%  { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+
+.log-cut {
+  transform-origin: 50% 50%;
+  animation: log-cut 0.35s ease-out forwards;
+}

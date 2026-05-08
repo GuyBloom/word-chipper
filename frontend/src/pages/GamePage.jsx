@@ -211,15 +211,29 @@ export default function GamePage() {
         </div>
 
         {/* Current word */}
-        <div className="bg-gradient-to-b from-green-50 to-white rounded-xl border border-green-100 shadow-sm p-4 text-center">
-          <div className="text-xs text-stone-400 font-medium uppercase tracking-wider mb-2">
+        <div className="bg-white rounded-xl border border-stone-200 shadow-sm p-4 text-center">
+          <div className="text-xs text-stone-400 font-medium uppercase tracking-wider mb-3">
             Current word · {path.length - 1} move{path.length - 1 !== 1 ? 's' : ''}
           </div>
-          <AnimatedWord
-            word={currentWord}
-            lastMoveType={moveTypes[moveTypes.length - 1] ?? null}
-            className="font-mono text-3xl font-bold text-green-800 tracking-widest"
-          />
+          {/* The log */}
+          <div
+            className="inline-block px-8 py-4"
+            style={{
+              borderRadius: '9999px',
+              background: [
+                'linear-gradient(90deg, rgba(0,0,0,0.28) 0%, transparent 14%, transparent 86%, rgba(0,0,0,0.28) 100%)',
+                'linear-gradient(180deg, #d4924a 0%, #a86828 50%, #7a4618 100%)',
+              ].join(', '),
+              boxShadow: '0 5px 0 #3e1e06, 0 8px 20px rgba(0,0,0,0.3)',
+              border: '1px solid rgba(255,255,255,0.1)',
+            }}
+          >
+            <AnimatedWord
+              word={currentWord}
+              lastMoveType={moveTypes[moveTypes.length - 1] ?? null}
+              className="font-mono text-3xl font-bold text-amber-50 tracking-widest drop-shadow"
+            />
+          </div>
         </div>
 
         {/* Input */}

@@ -22,25 +22,36 @@ function computeMapping(fromWord, toWord) {
   return mapping
 }
 
+function AxeSVG() {
+  return (
+    <svg viewBox="0 0 30 78" style={{ width: 30, height: 78 }} xmlns="http://www.w3.org/2000/svg">
+      <rect x="12" y="0" width="6" height="60" rx="3" fill="#8B5735"/>
+      <rect x="10" y="52" width="10" height="7" rx="2" fill="#6b4226" opacity="0.9"/>
+      <path d="M15 58 L5 65 Q3 72 8 76 L15 74 Z" fill="#546e7a"/>
+      <path d="M15 60 L24 65 L24 73 L15 72 Z" fill="#607d8b"/>
+      <path d="M5 65 Q2 72 8 76" fill="none" stroke="#90a4ae" strokeWidth="2" strokeLinecap="round"/>
+    </svg>
+  )
+}
+
 export default function AnimatedWord({ word, lastMoveType, className }) {
   const letterRefs = useRef([])
   const prevRectsRef = useRef([])
   const prevWordRef = useRef(word)
   const pendingScrambleRef = useRef(false)
   const [ghost, setGhost] = useState(null)
+  const [axe, setAxe] = useState(null)
+  const [cut, setCut] = useState(null)
 
-  // Detect scramble during render so Effect 1 can read it
   if (lastMoveType === 'scramble' && word !== prevWordRef.current) {
     pendingScrambleRef.current = true
   }
 
-  // Effect 1: animate using positions saved from the previous render
   useLayoutEffect(() => {
     const oldWord = prevWordRef.current
     if (word === oldWord) return
 
     if (pendingScrambleRef.current) {
-      // FLIP: move each letter from its old slot to its new slot
       const mapping = computeMapping(oldWord, word)
       const reverse = Array(word.length).fill(-1)
       mapping.forEach((j, i) => { if (j !== -1) reverse[j] = i })
@@ -65,13 +76,27 @@ export default function AnimatedWord({ word, lastMoveType, className }) {
       const rect = prevRectsRef.current[chopIdx]
       if (rect) {
         const direction = chopIdx === 0 ? 'left' : 'right'
-        setGhost({ letter: oldWord[chopIdx].toUpperCase(), x: rect.left, y: rect.top, direction })
-        setTimeout(() => setGhost(null), 520)
+
+        // Boundary x: right edge of first letter OR left edge of last letter
+        const boundaryX = chopIdx === 0 ? rect.right : rect.left
+
+        // Position axe so the blade (left side of SVG, ~11px left of element left)
+        // lands on the boundary at impact. Lower than before so it cuts into the log.
+        setAxe({ x: boundaryX + 11, y: rect.top - 46 })
+
+        // At axe impact (~55% of 380ms = 205ms): ghost letter + cut flash
+        setTimeout(() => {
+          setGhost({ letter: oldWord[chopIdx].toUpperCase(), x: rect.left, y: rect.top, direction })
+          setCut({ x: boundaryX, top: rect.top - 12, height: rect.height + 24 })
+          setTimeout(() => setGhost(null), 520)
+          setTimeout(() => setCut(null), 300)
+        }, 205)
+
+        setTimeout(() => setAxe(null), 420)
       }
     }
   }, [word])
 
-  // Effect 2: snapshot positions and current word (runs after Effect 1)
   useLayoutEffect(() => {
     prevRectsRef.current = letterRefs.current
       .slice(0, word.length)
@@ -88,6 +113,30 @@ export default function AnimatedWord({ word, lastMoveType, className }) {
           </span>
         ))}
       </span>
+      {axe && (
+        <div
+          style={{ position: 'fixed', left: axe.x, top: axe.y, pointerEvents: 'none', zIndex: 51 }}
+          className="axe-swinging"
+        >
+          <AxeSVG />
+        </div>
+      )}
+      {cut && (
+        <div
+          style={{
+            position: 'fixed',
+            left: cut.x - 1,
+            top: cut.top,
+            width: 3,
+            height: cut.height,
+            background: 'rgba(255, 235, 170, 0.95)',
+            boxShadow: '0 0 8px 2px rgba(255, 220, 120, 0.7)',
+            pointerEvents: 'none',
+            zIndex: 52,
+          }}
+          className="log-cut"
+        />
+      )}
       {ghost && (
         <span
           style={{ position: 'fixed', left: ghost.x, top: ghost.y, pointerEvents: 'none', zIndex: 50 }}
