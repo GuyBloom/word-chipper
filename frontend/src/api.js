@@ -33,3 +33,9 @@ export async function getHint(word) {
   if (!res.ok) throw new Error('No hint available')
   return res.json()
 }
+
+export async function getNextMoves(word) {
+  const res = await fetch(`${BASE}/next-moves?word=${word}`)
+  if (!res.ok) throw new Error('Failed to fetch moves')
+  return res.json()
+}
