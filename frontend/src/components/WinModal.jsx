@@ -7,18 +7,38 @@ function pathMoveTypes(path) {
   })
 }
 
+function effectiveMoveCount(types) {
+  let count = 0
+  let lastScramble = false
+  for (const t of types) {
+    if (t === 'scramble') {
+      if (!lastScramble) count++
+      lastScramble = true
+    } else {
+      count++
+      lastScramble = false
+    }
+  }
+  return count
+}
+
 export default function WinModal({ puzzle, path, moveTypes, winResult, puzzleDate, onClose }) {
   const [copied, setCopied] = useState(false)
 
-  const moves = path.length - 1
+  const moves = effectiveMoveCount(moveTypes)
   const beatAI = winResult?.beat_ai
   const solution = winResult?.solution ?? []
   const solutionMoveTypes = pathMoveTypes(solution)
 
+  const displayMoveTypes = moveTypes.reduce((acc, t) => {
+    if (t === 'scramble' && acc[acc.length - 1] === 'scramble') return acc
+    return [...acc, t]
+  }, [])
+
   const shareText = [
     `Word Chipper ${puzzleDate}`,
     `${puzzle.start.toUpperCase()} → ${puzzle.end.toUpperCase()}`,
-    `${moveTypes.map(t => (t === 'chop' ? '🪓' : '🔀')).join('')} ${moves} move${moves !== 1 ? 's' : ''} (our solution: ${puzzle.ai_moves})`,
+    `${displayMoveTypes.map(t => (t === 'chop' ? '🪓' : '🔀')).join('')} ${moves} move${moves !== 1 ? 's' : ''} (our solution: ${puzzle.ai_moves})`,
     beatAI ? '🔥 Beat our solution!' : '',
   ]
     .filter(Boolean)
@@ -48,7 +68,7 @@ export default function WinModal({ puzzle, path, moveTypes, winResult, puzzleDat
             {moves} move{moves !== 1 ? 's' : ''}
           </div>
           <div className="flex flex-wrap gap-1.5 justify-center mt-2">
-            {moveTypes.map((t, i) => (
+            {displayMoveTypes.map((t, i) => (
               <span
                 key={i}
                 className={`text-xs font-semibold px-2.5 py-0.5 rounded-full uppercase tracking-wide ${

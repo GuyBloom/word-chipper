@@ -55,6 +55,21 @@ export default function GamePage() {
 
   const currentWord = path[path.length - 1]
 
+  function effectiveMoveCount(types) {
+    let count = 0
+    let lastScramble = false
+    for (const t of types) {
+      if (t === 'scramble') {
+        if (!lastScramble) count++
+        lastScramble = true
+      } else {
+        count++
+        lastScramble = false
+      }
+    }
+    return count
+  }
+
   async function handleSubmit(e) {
     e.preventDefault()
     const word = input.trim().toLowerCase()
@@ -94,7 +109,7 @@ export default function GamePage() {
           localStorage.setItem(
             `wordchipper_${puzzleDate}`,
             JSON.stringify({
-              moves: newPath.length - 1,
+              moves: effectiveMoveCount(newMoveTypes),
               moveTypes: newMoveTypes,
               beat_ai: validation.beat_ai,
             })
@@ -213,25 +228,12 @@ export default function GamePage() {
         {/* Current word */}
         <div className="bg-white rounded-xl border border-stone-200 shadow-sm p-4 text-center">
           <div className="text-xs text-stone-400 font-medium uppercase tracking-wider mb-3">
-            Current word · {path.length - 1} move{path.length - 1 !== 1 ? 's' : ''}
+            Current word · {effectiveMoveCount(moveTypes)} move{effectiveMoveCount(moveTypes) !== 1 ? 's' : ''}
           </div>
-          {/* The log */}
-          <div
-            className="inline-block px-8 py-4"
-            style={{
-              borderRadius: '9999px',
-              background: [
-                'linear-gradient(90deg, rgba(0,0,0,0.28) 0%, transparent 14%, transparent 86%, rgba(0,0,0,0.28) 100%)',
-                'linear-gradient(180deg, #d4924a 0%, #a86828 50%, #7a4618 100%)',
-              ].join(', '),
-              boxShadow: '0 5px 0 #3e1e06, 0 8px 20px rgba(0,0,0,0.3)',
-              border: '1px solid rgba(255,255,255,0.1)',
-            }}
-          >
+          <div className="flex justify-center">
             <AnimatedWord
               word={currentWord}
               lastMoveType={moveTypes[moveTypes.length - 1] ?? null}
-              className="font-mono text-3xl font-bold text-amber-50 tracking-widest drop-shadow"
             />
           </div>
         </div>

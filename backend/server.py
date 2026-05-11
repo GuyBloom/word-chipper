@@ -96,16 +96,23 @@ def validate_path(path: list[str]) -> dict:
 
     chops = 0
     scrambles = 0
+    effective_moves = 0
+    last_was_scramble = False
     for i in range(len(path) - 1):
         move_type = is_valid_move(path[i], path[i + 1])
         if move_type is None:
             return {"valid": False, "error": f"Invalid move: {path[i]} → {path[i + 1]}"}
         if move_type == "chop":
             chops += 1
+            effective_moves += 1
+            last_was_scramble = False
         else:
             scrambles += 1
+            if not last_was_scramble:
+                effective_moves += 1
+            last_was_scramble = True
 
-    return {"valid": True, "moves": len(path) - 1, "chops": chops, "scrambles": scrambles}
+    return {"valid": True, "moves": effective_moves, "chops": chops, "scrambles": scrambles}
 
 
 # ---------------------------------------------------------------------------
